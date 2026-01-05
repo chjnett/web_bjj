@@ -1,4 +1,4 @@
-import { Instagram, Mail } from 'lucide-react'
+import { Instagram, Mail, BookOpen } from 'lucide-react'
 import ScrollRevealItem from './ScrollRevealItem'
 
 const Footer = () => {
@@ -69,12 +69,20 @@ const Footer = () => {
               <li>osjchungra@naver.com</li>
               <li className="flex space-x-3 pt-2">
                 <a
-                  href="https://www.instagram.com/osj_cheongna"
+                  href="https://www.instagram.com/osjchungra/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
                   <Instagram size={20} />
+                </a>
+                <a
+                  href="https://blog.naver.com/osjchungra"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  <BookOpen size={20} />
                 </a>
                 <a
                   href="mailto:osjchungra@naver.com"
